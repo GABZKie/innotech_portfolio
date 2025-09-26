@@ -1,3 +1,10 @@
+/* Set fixed size for Brand Identity image in portfolio section */
+#portfolio .card img[alt="Project 3"] {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+}
+
 
 /* ===== Global ===== */
 body {
@@ -145,7 +152,7 @@ section h2::after {
 form .form-control {
   background: #1c1c1c;
   border: 1px solid #333;
-  color: #fff;
+  color: #fff !important;
   border-radius: 0.5rem;
   padding: 0.65rem;
   transition: border-color 0.3s ease, background 0.3s ease;
